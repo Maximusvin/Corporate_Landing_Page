@@ -229,3 +229,154 @@ body {
   margin-top: 30px;
   margin-bottom: 20px;
 }
+
+.resposive-design {
+  padding-top: 93px;
+  padding-bottom: 90px;
+}
+
+.resposive-wrap {
+  display: flex;
+}
+
+.img-macbook {
+  margin-left: -100px;
+}
+
+.resposive-description-items {
+  margin-top: 47px;
+  margin-left: 52px;
+}
+
+.resposive-title {
+  width: 440px;
+  color: #282828;
+  font-family: Exo;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  margin-top: 25px;
+  margin-bottom: 36px;
+}
+
+.resposive-title span {
+  color: #ff6d6d;
+  letter-spacing: 1.6px;
+}
+
+.resposive-description {
+  width: 515px;
+  color: #282828;
+  opacity: 0.66;
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+}
+
+.reviews {
+  background-image: url(../img/Group_4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000;
+  padding: 110px 0 80px 0;
+}
+
+.reviews-lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews-list {
+  text-align: center;
+  width: 325px;
+}
+
+.square {
+  width: 76px;
+  height: 76px;
+  border: 2px solid #1d1e24;
+  background-color: #4e4e5e;
+  margin: 0 auto 25px;
+}
+
+.reviews-title {
+  color: #ffffff;
+  font-family: Exo;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.88px;
+  margin-bottom: 12px;
+}
+
+.reviews-subtitle {
+  color: #ff6d6d;
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 37px;
+}
+
+.reviews-description {
+  opacity: 0.66;
+  color: #ffffff;
+  font-family: 'Exo - Regular';
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+  font-style: italic;
+  margin-bottom: 105px;
+}
+
+.logo-company {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.features {
+  background-color: #f6f5f3;
+  padding-top: 108px;
+  text-align: center;
+}
+
+.suptitle-feateres {
+  color: #ff6d6d;
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+  margin-bottom: 15px;
+}
+
+.features-title {
+  color: #282828;
+  font-family: Exo;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+  margin-bottom: 48px;
+}
+
+.features-description {
+  margin: 0 auto;
+  width: 650px;
+  opacity: 0.66;
+  color: #282828;
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+}
+
+.img-rectangle {
+  margin-top: 93px;
+  margin-bottom: -2px;
+}
+
+.features-form {
+  background-color: #323969;
+  padding-top: 98px;
+}
