@@ -379,4 +379,208 @@ body {
 .features-form {
   background-color: #323969;
   padding-top: 98px;
+  padding-bottom: 85px;
+}
+
+.features-header {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 96px;
+}
+
+.color-features {
+  color: #fff;
+}
+
+.features-form-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 52px;
+}
+
+.input-features::placeholder {
+  color: #fff;
+}
+
+.input-features {
+  width: 263px;
+  height: 49px;
+  border-radius: 3px;
+  background-color: #f6f5f3;
+  background: transparent;
+  border: 1px solid #ffffff;
+  opacity: 0.5;
+  margin-right: 30px;
+  padding: 18px 29px;
+}
+
+.button {
+  width: 258px;
+  height: 50px;
+  box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+  border-radius: 3px;
+  border: 1px solid #ff6d6d;
+  background-color: #ff6d6d;
+  color: #f6f5f3;
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.81px;
+}
+
+.btn-box {
+  position: relative;
+}
+
+.btn-box-title {
+  position: absolute;
+  color: #f6f5f3;
+  font-family: Exo;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+  top: -55px;
+  left: 45px;
+}
+
+.arrow {
+  position: absolute;
+  top: -55px;
+  left: 5px;
+}
+
+.features-form-description {
+  text-align: center;
+  opacity: 0.6;
+  color: #f6f5f3;
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+}
+
+.features-form-description span {
+  text-decoration: underline;
+}
+
+.footer {
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  width: 975px;
+}
+
+.footer-list-one {
+  width: 250px;
+}
+
+.footer-description {
+  opacity: 0.56;
+  color: #282828;
+  font-family: Exo;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.56px;
+  line-height: 26px;
+  margin-top: 28px;
+}
+
+.logo {
+  color: #2c2f49;
+  font-family: Lato;
+  font-size: 27px;
+  font-weight: 400;
+  position: relative;
+}
+
+.logo span {
+  color: #fff;
+  z-index: 3;
+}
+
+.logo::before {
+  content: '';
+  position: absolute;
+  width: 42px;
+  height: 47px;
+  background-image: url(../img/Polygon_logo.png);
+  background-repeat: no-repeat;
+  top: -4px;
+  left: 62px;
+  z-index: -3;
+}
+
+.footer-title {
+  color: #282828;
+  font-family: Exo;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.88px;
+  margin-bottom: 28px;
+}
+
+.foter-menu-list {
+  opacity: 0.66;
+  color: #282828;
+  font-family: Exo;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  letter-spacing: 0.56px;
+}
+
+.input-footer {
+  width: 263px;
+  height: 49px;
+  border-radius: 3px;
+  border: 1px solid #4e4e5e;
+  background-color: #8d8d8d;
+  opacity: 0.4;
+  background: transparent;
+  padding-left: 29px;
+  position: relative;
+}
+
+.footer-form {
+  position: relative;
+  margin-bottom: 19px;
+}
+
+.footer-form::before {
+  position: absolute;
+  content: '';
+  width: 52px;
+  height: 49px;
+  box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+  border-radius: 3px;
+  border: 1px solid #ff6d6d;
+  background-color: #ff6d6d;
+  top: 0;
+  left: 210px;
+}
+
+.footer-form::after {
+  position: absolute;
+  content: '';
+  background-image: url(../img/10.png);
+  background-repeat: no-repeat;
+  width: 52px;
+  height: 49px;
+  top: 15px;
+  left: 225px;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social-img {
+  margin-right: 30px;
 }
